@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="bg-gray-600 h-max">
+    <div class="bg-gray-600">
         <div class="flex justify-between items-center bg-gray-300 mb-10">
             <div class="text-4xl  text-gray-800 text-white px-10">
                Best Recipes
@@ -40,118 +41,21 @@
         <div class="bg-gray-500 h-96 rounded-md shadow-2xl w-5/6 mx-auto">
             <div class="flex flex-col justify-center items-center gap-6 pt-10">
                 <h1 class="text-7xl">Recipes</h1>
-                <form class="searchForm relative max-w-lg">
-                    <input id="searchInput" class="h-14 w-full rounded-md outline-none style-none text-3xl p-4" type="search" placeholder="Search...">
-                    <i class="fa-solid fa-magnifying-glass absolute right-2 top-5 font-bdol text-xl"></i>
+                <form class="relative max-w-lg">
+                    <input class="h-14 w-full rounded-md outline-none style-none text-3xl p-4" type="search" placeholder="Search...">
                 </form>
             </div>
         </div>
-        <div class="w-5/6 mx-auto my-10">
-            <h2 class="text-4xl my-10">Current recipes</h2>
-            <div class="flex flex-wrap items-center justify-center gap-10 text-white" x-data="{size:false}">
-                <div class="basis-1/4 bg-gray-800 rounded-md p-5">
-                    <div>
-                        <img class="rounded-md" src="/img/chicken.jpg" alt="">
-                    </div>
-                    <div class="pt-5">
-                        <div class="flex justify-between">
-                            <h3 class="text-2xl">Chicken</h3>
-                            <button class="bg-gray-300 text-gray-800 p-1 rounded-md hover:bg-gray-700 hover:text-lime-600" type="submit">View recipe</button>
-                        </div>
-                        <div class="py-2">
-                            <p>Calories:</p>
-                            <p>Diest label:</p>
-                            <p>Health-label:</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="basis-1/4 bg-gray-800 rounded-md p-5">
-                    <div>
-                        <img class="rounded-md" src="/img/chicken.jpg" alt="">
-                    </div>
-                    <div class="pt-5">
-                        <div class="flex justify-between">
-                            <h3 class="text-2xl">Chicken</h3>
-                            <button class="bg-gray-300 text-gray-800 p-1 rounded-md hover:bg-gray-700 hover:text-lime-600" type="submit">View recipe</button>
-                        </div>
-                        <div class="py-2">
-                            <p>Calories:</p>
-                            <p>Diest label:</p>
-                            <p>Health-label:</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="basis-1/4 bg-gray-800 rounded-md p-5">
-                    <div>
-                        <img class="rounded-md" src="/img/chicken.jpg" alt="">
-                    </div>
-                    <div class="pt-5">
-                       <div class="flex justify-between">
-                            <h3 class="text-2xl">Chicken</h3>
-                            <button class="bg-gray-300 text-gray-800 p-1 rounded-md hover:bg-gray-700 hover:text-lime-600" type="submit">View recipe</button>
-                        </div>
-                        <div class="py-2">
-                            <p>Calories:</p>
-                            <p>Diest label:</p>
-                            <p>Health-label:</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="basis-1/4 bg-gray-800 rounded-md p-5">
-                    <div>
-                        <img class="rounded-md" src="/img/chicken.jpg" alt="">
-                    </div>
-                    <div class="pt-5">
-                       <div class="flex justify-between">
-                            <h3 class="text-2xl">Chicken</h3>
-                            <button class="bg-gray-300 text-gray-800 p-1 rounded-md hover:bg-gray-700 hover:text-lime-600" type="submit">View recipe</button>
-                        </div>
-                        <div class="py-2">
-                            <p>Calories:</p>
-                            <p>Diest label:</p>
-                            <p>Health-label:</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="basis-1/4 bg-gray-800 rounded-md p-5">
-                    <div>
-                        <img class="rounded-md" src="/img/chicken.jpg" alt="">
-                    </div>
-                    <div class="pt-5">
-                       <div class="flex justify-between">
-                            <h3 class="text-2xl">Chicken</h3>
-                            <button class="bg-gray-300 text-gray-800 p-1 rounded-md hover:bg-gray-700 hover:text-lime-600" type="submit">View recipe</button>
-                        </div>
-                        <div class="py-2">
-                            <p>Calories:</p>
-                            <p>Diest label:</p>
-                            <p>Health-label:</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="basis-1/4 bg-gray-800 rounded-md p-5">
-                    <div>
-                        <img class="rounded-md" src="/img/chicken.jpg" alt="">
-                    </div>
-                    <div class="pt-5">
-                        <div class="flex justify-between">
-                            <h3 class="text-2xl">Chicken</h3>
-                            <button class="bg-gray-300 text-gray-800 p-1 rounded-md hover:bg-gray-700 hover:text-lime-600" type="submit">View recipe</button>
-                        </div>
-                        <div class="py-2">
-                            <p>Calories:</p>
-                            <p>Diest label:</p>
-                            <p>Health-label:</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="w-5/6 py-10 mx-auto">
+            <div class="searchResult flex flex-wrap items-center justify-center gap-10 text-white my-auto" x-data="{size:false}">
             </div>
         </div>
-        <footer>
-            <div class="bg-gray-300 flex justify-center items-center p-5">
-                <p>Copyright @2022 | All rights reserved.</p>
-            </div>
-        </footer>
     </div>
+    <footer>
+        <div class="bg-gray-300 flex justify-center items-center p-5">
+            <p>Copyright @2022 | All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>
