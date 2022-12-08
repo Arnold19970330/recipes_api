@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-[url('/img/bg-2.jpg')] bg-no-repeat bg-cover min-h-screen">
+        <div class="flex justify-between items-center bg-gray-300 mb-10">
+            <div class="text-4xl  text-gray-800 px-10">
+               Best Recipes
+            </div>
+            <nav>
+                <ul class="flex justify-between gap-10 px-10 py-5 text-2xl">
+                    <li>
+                        <a href="">New recipes</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Exotics</a>
+                    </li>
+                    <li>
+                        <a href="">Log in</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bg-gray-300 h-96 rounded-md shadow-2xl w-5/6 mx-auto">
+            <div class="flex flex-col justify-center items-center gap-6 pt-10">
+                <h1 class="text-7xl">Recipes</h1>
+                <form class="relative max-w-lg">
+                    <input class="h-14 w-full rounded-md outline-none style-none text-3xl p-4" type="search" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+        <div class="w-4/6 py-10 mx-auto">
+            <div class="searchResult flex flex-wrap items-center justify-center gap-10 text-white my-auto">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg-gray-300 flex justify-center items-center p-5">
+            <p>Copyright @2022 | All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+ </body>
+</html>
