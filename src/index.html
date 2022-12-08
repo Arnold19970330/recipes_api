@@ -13,9 +13,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="bg-gray-600">
+    <div class="bg-[url('/img/bg-2.jpg')] bg-no-repeat bg-cover min-h-screen">
         <div class="flex justify-between items-center bg-gray-300 mb-10">
-            <div class="text-4xl  text-gray-800 text-white px-10">
+            <div class="text-4xl  text-gray-800 px-10">
                Best Recipes
             </div>
             <nav>
@@ -38,7 +38,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="bg-gray-500 h-96 rounded-md shadow-2xl w-5/6 mx-auto">
+        <div class="bg-gray-300 h-96 rounded-md shadow-2xl w-5/6 mx-auto">
             <div class="flex flex-col justify-center items-center gap-6 pt-10">
                 <h1 class="text-7xl">Recipes</h1>
                 <form class="relative max-w-lg">
@@ -46,8 +46,8 @@
                 </form>
             </div>
         </div>
-        <div class="w-5/6 py-10 mx-auto">
-            <div class="searchResult flex flex-wrap items-center justify-center gap-10 text-white my-auto" x-data="{size:false}">
+        <div class="w-4/6 py-10 mx-auto">
+            <div class="searchResult flex flex-wrap items-center justify-center gap-10 text-white my-auto">
             </div>
         </div>
     </div>
@@ -57,5 +57,5 @@
         </div>
     </footer>
     <script src="app.js"></script>
-</body>
+ </body>
 </html>
